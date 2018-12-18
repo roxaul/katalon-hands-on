@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test MarcarConsulta</description>
+   <name>TC02-MarcarConsulta</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6af79025-65a7-4819-98a7-7db176a8b686</testCaseGuid>
+</TestCaseEntity>

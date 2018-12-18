@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS-01CuraKatalon,Chrome 71.0.3578.98,"Testes de login, marcar consulta e verificar consulta",2018-12-18 20:20:40,2018-12-18 20:21:00,"19,795s",PASSED
+,,,,,,
+Test Cases/TC01-Login,Chrome 71.0.3578.98,test case login sucess,2018-12-18 20:20:40,2018-12-18 20:20:50,"9,370s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 20:20:41,2018-12-18 20:20:44,"3,401s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 20:20:44,2018-12-18 20:20:47,"2,844s",PASSED
+"click(findTestObject(""Object Repository/MarcaConsulta/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:20:47,2018-12-18 20:20:48,"0,427s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/MarcaConsulta/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-18 20:20:48,2018-12-18 20:20:48,"0,216s",PASSED
+"setText(findTestObject(""Object Repository/MarcaConsulta/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 20:20:48,2018-12-18 20:20:48,"0,135s",PASSED
+"click(findTestObject(""Object Repository/MarcaConsulta/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 20:20:48,2018-12-18 20:20:48,"0,499s",PASSED
+"click(findTestObject(""Object Repository/MarcaConsulta/label_Apply for hospital readm""))",Chrome 71.0.3578.98,,2018-12-18 20:20:48,2018-12-18 20:20:49,"0,154s",PASSED
+"setText(findTestObject(""Object Repository/MarcaConsulta/input_Visit Date (Required)_vi""), ""29/09/1993"")",Chrome 71.0.3578.98,,2018-12-18 20:20:49,2018-12-18 20:20:49,"0,338s",PASSED
+"setText(findTestObject(""Object Repository/MarcaConsulta/textarea_Comment_comment""), ""teste123 oj ogo"")",Chrome 71.0.3578.98,,2018-12-18 20:20:49,2018-12-18 20:20:49,"0,130s",PASSED
+"click(findTestObject(""Object Repository/MarcaConsulta/button_Book Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:20:49,2018-12-18 20:20:49,"0,305s",PASSED
+"check(findTestObject(""Object Repository/MarcaConsulta/div_Appointment Confirmation""))",Chrome 71.0.3578.98,,2018-12-18 20:20:49,2018-12-18 20:20:49,"0,156s",PASSED
+"click(findTestObject(""Object Repository/MarcaConsulta/a_Go to Homepage""))",Chrome 71.0.3578.98,,2018-12-18 20:20:49,2018-12-18 20:20:50,"0,352s",PASSED
+,,,,,,
+Test Cases/TC05-AGORAVAI,Chrome 71.0.3578.98,fé que vai,2018-12-18 20:20:50,2018-12-18 20:21:00,"10,141s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 20:20:50,2018-12-18 20:20:53,"2,796s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 20:20:53,2018-12-18 20:20:56,"3,479s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:20:56,2018-12-18 20:20:57,"0,379s",PASSED
+"setText(findTestObject(""Object Repository/AgoraFoi/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 20:20:57,2018-12-18 20:20:57,"0,135s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/AgoraFoi/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-18 20:20:57,2018-12-18 20:20:57,"0,159s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 20:20:57,2018-12-18 20:20:57,"0,494s",PASSED
+"setText(findTestObject(""Object Repository/AgoraFoi/input_Visit Date (Required)_vi""), ""29/09/1993"")",Chrome 71.0.3578.98,,2018-12-18 20:20:57,2018-12-18 20:20:58,"0,291s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/div_Comment""))",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:58,"0,080s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/label_Apply for hospital readm""))",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:58,"0,080s",PASSED
+"setText(findTestObject(""Object Repository/AgoraFoi/textarea_Comment_comment""), ""agoravai"")",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:58,"0,107s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/button_Book Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:58,"0,301s",PASSED
+"check(findTestObject(""Object Repository/AgoraFoi/div_Appointment Confirmation""))",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:58,"0,126s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/i_CURA Healthcare_fa fa-bars""))",Chrome 71.0.3578.98,,2018-12-18 20:20:58,2018-12-18 20:20:59,"0,083s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/a_History""))",Chrome 71.0.3578.98,,2018-12-18 20:20:59,2018-12-18 20:20:59,"0,317s",PASSED
+"check(findTestObject(""Object Repository/AgoraFoi/div_29091993""))",Chrome 71.0.3578.98,,2018-12-18 20:20:59,2018-12-18 20:20:59,"0,116s",PASSED
+"click(findTestObject(""Object Repository/AgoraFoi/a_Go to Homepage""))",Chrome 71.0.3578.98,,2018-12-18 20:20:59,2018-12-18 20:20:59,"0,325s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 20:20:59,2018-12-18 20:21:00,"0,639s",PASSED
